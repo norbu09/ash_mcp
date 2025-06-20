@@ -10,6 +10,8 @@ defmodule AshMcp.Application do
     children = [
       # Starts a worker by calling: AshMcp.Worker.start_link(arg)
       # {AshMcp.Worker, arg}
+      AshMcp.Registry,
+      AshMcp.Session
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

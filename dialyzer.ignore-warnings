@@ -1,0 +1,3 @@
+# Ignore warnings about AshAi.functions/1 since this is expected
+# when ash_ai is not available (ash_mcp works independently)
+lib/ash_mcp/ash_tools.ex:99:20:unknown_function Function AshAi.functions/1 does not exist. 
